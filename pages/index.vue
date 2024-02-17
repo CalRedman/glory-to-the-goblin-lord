@@ -1,14 +1,21 @@
 <template lang="">
   <div>
-    <Navbar></Navbar>
+    <div>
+      <Navbar></Navbar>
+    </div>
+    <div>
+      <MainCard></MainCard>
+    </div>
   </div>
 </template>
 <script>
 import Navbar from '~/components/Navigation.vue'
+import MainCard from '~/components/MainCard.vue'
 export default {
 
   components: {
-    Navbar
+    Navbar,
+    MainCard
   }
 
 }
