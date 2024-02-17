@@ -1,12 +1,16 @@
 <template lang="">
-    <div>
-        <p>Hello world this is the home page</p>
-        <button href="about.vue">about</button>
-    </div>
+  <div>
+    <Navbar></Navbar>
+  </div>
 </template>
 <script>
+import Navbar from '~/components/Navigation.vue'
 export default {
-    
+
+  components: {
+    Navbar
+  }
+
 }
 </script>
 <style lang="">
